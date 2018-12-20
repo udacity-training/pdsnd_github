@@ -46,10 +46,6 @@ def get_filters():
         day = input("Please enter a day: ").title()
 
 
-    #city = 'chicago'
-    #month = 'all'
-    #day = 'all'
-
     print('-'*40)
     return city, month, day
 
