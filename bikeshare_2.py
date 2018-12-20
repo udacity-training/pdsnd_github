@@ -25,7 +25,7 @@ def get_filters():
     city = input("Please enter a city: ").lower()
     #check the city entry is ok
     while CITY_DATA.get(city) ==None:
-        city = input("City not found.  Please choose chicago, new york city or washington: ").lower()
+        city = input("City not found.  Please choose Chicago, New York City or Washington: ").lower()
 
 
     # get the month
