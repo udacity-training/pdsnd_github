@@ -269,7 +269,7 @@ def user_stats(df):
 
 def print_data(df):
     # ask the user if they would like to see some data
-    get_data= input("Would you like to see 5 rows of data?  Answer yes or no. \n").lower()
+    get_data= input("Would you like to see the first 5 rows of data?  Answer yes or no. \n").lower()
     if get_data == 'yes':
         print(df.head())
         count = 0
