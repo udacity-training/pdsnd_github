@@ -1,11 +1,12 @@
 ### Date created
 This project and README.md file was created just before Christmas 2019.
 
-### Project Title
-Replace the Project Title
+### Bikeshare Analytics Tool
+
 
 ### Description
-Describe what your project is about and what it does
+This tool provides an interface between the user and bikeshare data from three cities (New York, Washington & Chicago)
+It enables the user to view basic statistics on bike usage.
 
 ### Files used
 Include the files used
