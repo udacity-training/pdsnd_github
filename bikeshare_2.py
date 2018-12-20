@@ -26,7 +26,7 @@ def get_filters():
     city = input("Please enter a city: ").lower()
     #check the city entry is ok
     while CITY_DATA.get(city) ==None:
-        city = input("City not found.  Please choose chicago, new york city or washington: ").lower()
+        city = input("City not found.  Please choose Chicago, New York City or Washington: ").lower()
 
 
     # get the month
@@ -35,7 +35,7 @@ def get_filters():
     if month != 'all':
         # check the month entry is ok
         while month not in months :
-            month = input("Please enter a month (january, february, march, april, may, june or all): ").lower()
+            month = input("Please enter a month (January, February, March, April, May, June or all): ").lower()
 
 
     # get the day of week
@@ -266,7 +266,7 @@ def user_stats(df):
 
 def print_data(df):
     # ask the user if they would like to see some data
-    get_data= input("Would you like to see 5 rows of data?  Answer yes or no. \n").lower()
+    get_data= input("Would you like to see the first 5 rows of data?  Answer yes or no. \n").lower()
     if get_data == 'yes':
         print(df.head())
         count = 0
