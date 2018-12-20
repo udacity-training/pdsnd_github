@@ -34,7 +34,7 @@ def get_filters():
     if month != 'all':
         # check the month entry is ok
         while month not in months :
-            month = input("Please enter a month (january, february, march, april, may, june or all): ").lower()
+            month = input("Please enter a month (January, February, March, April, May, June or all): ").lower()
 
 
     # get the day of week
