@@ -4,6 +4,7 @@ import numpy as np
 
 # set up the definitions that are allowed for city, month and day.
 # include 'all' where relevant
+# definitions are not case sensitive - the code should handle all permutations of upper and lower case letters
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
